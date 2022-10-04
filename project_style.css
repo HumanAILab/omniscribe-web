@@ -1,0 +1,156 @@
+* {
+	/* font-family: 'Alegreya', serif; */
+	font-family: 'IBM Plex Serif', serif;
+}
+::selection {
+	background: rgb(206, 206, 206); /* WebKit/Blink Browsers */
+	color: black;
+}
+::-moz-selection {
+	background: #CFC096; /* WebKit/Blink Browsers */
+	color: black;
+}
+#wrap{
+	width:1000px;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+	padding:20px 40px 50px 40px; /* top right bot left */
+	-webkit-box-shadow:10 10 50px #aaa;
+	-moz-box-shadow:30 30 30 30px #aaa;
+	box-shadow: 0 0px 50px rgb(170, 170, 170);
+	background:rgb(255, 255, 255);
+	background:-moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEE), color-stop(2%, #FFFFFF));
+}
+
+body{
+	/* font-family: 'Alegreya', serif; */
+	line-height:150%;
+}
+
+.authorship{
+	font-size: 14px;
+	text-align: center;
+}
+
+.line{
+	/* clear:both; */
+	border-bottom:2px #eee solid;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top:-20px
+}
+.line_black{
+	clear:both;
+	/* border-bottom:2px rgb(0, 0, 0) solid; */
+	margin-bottom: 0px;
+	margin-top:0px
+}
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+#header #header-content h1{
+	font-size:28px;
+	letter-spacing:0px;
+	text-align: center;
+}
+
+#header #header-content p{
+	font-size:18px;
+	letter-spacing:0px;
+	text-align: center;
+}
+
+#header #header-content p #association{
+	color: #555;
+}
+
+/* ------------- */
+/* -- Content -- */
+/* ------------- */
+#content .cv-section{
+	width:900px;
+	margin:0 0px 15px 0; /* top right bot left */
+}
+
+#content .cv-section h3{
+	font-size:28px;
+	color:rgb(0, 0, 0);
+	margin:45px 0 30px 0;
+}
+
+#content .cv-section p{
+	/* font-size:140px; */
+	color:#555;
+	letter-spacing:0;
+}
+
+
+#content .cv-section .system-section{
+	text-align: left;
+	margin-top: 0px;
+}
+
+
+#content #citation p{
+	/* font-size:20px; */
+	background-color: rgb(229, 229, 229);
+	padding: 10px;
+	border-radius: 5px;
+	font-family: monospace;
+	white-space: pre-line;
+}
+
+#content .cv-section button{
+	font-size:16px;
+}
+
+#content .cv-section .system-section h1{
+	font-size:24px;
+}
+
+
+#content .cv-section .system-section span b{
+	font-size:18px;
+}
+
+#content .cv-section img{
+	margin-left: 10px;
+	height: auto;
+	/* width: 8000px; */
+	float:left;
+	padding-right: 10px;
+	/* border:1px rgb(0, 0, 0) solid; */
+}
+
+.vl {
+	border-left: 4px solid rgb(191, 253, 120);
+	margin-left: 10px;
+	height: 250px;
+	/* -webkit-box-shadow: 10px 50px #aaa; */
+	box-shadow: 2.5px 0px 10px rgb(124, 219, 16);
+	background:-moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEE), color-stop(2%, #FFFFFF));
+
+  }
+
+.cite_button{
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	display: inline-block;
+
+}
+
+
+#bibtex, #reference {
+	font-size: 10px;
+	line-height: 130%;
+	margin-top: 5px;
+}
+
+.system-section h1{
+	font-weight: bold;
+}
